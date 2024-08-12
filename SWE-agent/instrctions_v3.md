@@ -34,10 +34,10 @@ We are currently coding within our directory. Please note that we classified all
   (5) `router`: place route of different pages and connect files.
 2. BACKEND Directory:
    These are folders that are classified as "BACKEND Directory". Please note that the folder name below need to be considered as BACKEND class names: `staff`, `userprofile`, `userregister`, `userlogin`, `company`, `supplier`, `ans`, `dn`, `binset`, `binsize`, `binproperty`, `customer`, `capital`, `cyclecount`, `dashboard`, `warehouse`, `goods`, `goodsunit`, `goodsclass`, `goodscolor`, `goodsbrand`, `goodsshape`, `goodsspecs`, `goodsorigin`, `payment`, `driver`, `stock`, `throttle`, `uploadfile`, `scanner`. 
-    The general overview of the BACKEND files and codes can be found in "/home/juyuanhuang24/SWE-agent/markdown_docs". You should be able to access the description and summary of the codes for each file and folder based on the folder name. For instance, if you need to do something with `driver` folder, you need to completely understand the codes first. What you need to do is to open "/driver" folder in "/home/juyuanhuang24/SWE-agent/markdown_docs" and read all information in files ending with `.md`. !!! You need to make sure you completely understand the codes before making any changes. !!!    
+    The general overview of the BACKEND files and codes can be found in "/home/Automated_Codebase_Modification/SWE-agent/markdown_docs". You should be able to access the description and summary of the codes for each file and folder based on the folder name. For instance, if you need to do something with `driver` folder, you need to completely understand the codes first. What you need to do is to open "/driver" folder in "/home/Automated_Codebase_Modification/SWE-agent/markdown_docs" and read all information in files ending with `.md`. !!! You need to make sure you completely understand the codes before making any changes. !!!    
     !!! You are only allowed to read the folders with the class names that you plan to make changes. You must not read any other folders that are unrelated to your plan and change. !!!     
-    !!! If you are told to make change in the BACKEND directories, you must not read any other descriptions of folders in "/home/juyuanhuang24/SWE-agent/markdown_docs" that are not parts of BACKEND directories. !!!   
-    You need to tell us if you can successfully access, read, and understand the descriptions of folders you found in "/home/juyuanhuang24/SWE-agent/markdown_docs" in the beginning.   
+    !!! If you are told to make change in the BACKEND directories, you must not read any other descriptions of folders in "/home/Automated_Codebase_Modification/SWE-agent/markdown_docs" that are not parts of BACKEND directories. !!!   
+    You need to tell us if you can successfully access, read, and understand the descriptions of folders you found in "/home/Automated_Codebase_Modification/SWE-agent/markdown_docs" in the beginning.   
    <!-- These folders as well as these BACKEND classes usually contains the following files:  
    (1) `admin.py`: allow to register database models so it can be viewed on admin panel (No need to worry about).   
    (2) `apps.py`: name of application that is used in project settings (No need to worry about).  
@@ -128,7 +128,7 @@ Here is a demonstration of how to correctly accomplish this task.
   {demonstration}
   --- END OF DEMONSTRATION ---
 
-demostration: "/home/juyuanhuang24/SWE-agent/trajectories/Demo.traj".
+demostration: "/home/Automated_Codebase_Modification/SWE-agent/trajectories/Demo.traj".
 
 # Task to do 
 <!-- Add “Credibility” as a data header to supplier’s database only without updating the website layout.  -->
