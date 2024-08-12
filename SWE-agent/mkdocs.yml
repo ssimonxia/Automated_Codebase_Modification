@@ -1,0 +1,74 @@
+site_name: SWE-agent documentation
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/swe-agent.svg
+  palette: 
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: deep orange
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.indexes 
+    - content.action.edit
+    - navigation.footer
+    - content.code.copy
+    - content.footnote.tooltips
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Home: index.md
+  - Installation:
+    - "installation/index.md"
+    - "Use in-browser": "installation/codespaces.md"
+    - "Install from source": "installation/source.md"
+    - "Docker": "installation/docker.md"
+    - "Adding your keys": "installation/keys.md"
+    - "Installation tips": "installation/tips.md"
+    - "Changelog": "installation/changelog.md"
+  - Usage:
+    - "usage/index.md"
+    - "Command line usage": "usage/cl_tutorial.md"
+    - "Using the web UI": "usage/web_ui.md"
+    - "Trajectories": "usage/trajectories.md"
+    - "Trajectory inspector": "usage/inspector.md"
+    - "FAQ": "usage/faq.md"
+    - "Benchmarking": "usage/benchmarking.md"
+  - Configuration:
+    - "Config files": "config/config.md"
+    - "Command definitions": "config/commands.md"
+    - "Demonstrations": "config/demonstrations.md"
+  - Development:
+    - "Contribution guide": "dev/contribute.md"
+    - "Code structure": "dev/code_structure.md"
+plugins:
+   - glightbox
+   - search
+   - include-markdown
+repo_url: https://github.com/princeton-nlp/SWE-agent
+repo_name: princeton-nlp/SWE-agent
+edit_uri: edit/main/docs/
