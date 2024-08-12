@@ -34,6 +34,10 @@ We began with an in-depth analysis of the stages and workflows within the WMS co
    
 ### Note: The configurations and prompts are only work for GreaterWMS. If you want to explore this method on other codebases, you need to optimize configurations and prompts yourself.   
 
+## Contributors
+* [Ziang Gu](https://github.com/ZiAngGu1)  
+* [Juyuan Huang](https://github.com/juyuanjuyuan)  
+
 ## References:
 1. Yang, J., Jimenez, C. E., Wettig, A., Lieret, K., Yao, S., Narasimhan, K., & Press, O. (2024). *SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering*. [arXiv link](https://arxiv.org/abs/2405.15793).
 2. Luo, Q., Ye, Y., Liang, S., Zhang, Z., Qin, Y., Lu, Y., Wu, Y., Cong, X., Lin, Y., Zhang, Y., Che, X., & Liu, Z., Sun, M. (2024). *RepoAgent: An LLM-Powered Open-Source Framework for Repository-level Code Documentation Generation*. arXiv:2402.16667 [cs.CL]. Available at: [arXiv link](https://arxiv.org/abs/2402.16667).
