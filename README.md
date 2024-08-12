@@ -10,26 +10,27 @@ We began with an in-depth analysis of the stages and workflows within the WMS co
 3. Run Repo-agent on GreaterWMS (or other directorys or codebases you want to make changes to)  
 4. Update `instructions_v3.md` in `SWE-agent` with focus on absolute positions of the files so that LLM can successfully access the file information.  For instance, change `/home/Automated_Codebase_Modification/SWE-agent/markdown_docs` to the absolute file position of the output of the Repo-agent.   
 5. In `instructions_v3.md`, put your request at "Task to do" to let LLM know your request.
-6. ```bash
-     cd SWE-agent \
-     python run.py \
-      --model_name gpt4 \
-      --data_path "path to your instruction" \
-      --repo_path "path to your codebase" \
-      --config_file "path to config file" \
-      --apply_patch_locally \
-      --per_instance_cost_limit 2.00
-   ```
+6.  Run the following terminal commands  
+       ```bash
+          cd SWE-agent \
+          python run.py \
+           --model_name gpt4 \
+           --data_path "path to your instruction" \
+           --repo_path "path to your codebase" \
+           --config_file "path to config file" \
+           --apply_patch_locally \
+           --per_instance_cost_limit 2.00
+        ```
    e.g.
-   ```bash
-        python run.py \
-          --model_name gpt4o \
-          --data_path "/home/Automated_Codebase_Modification/SWE-agent/instructions_v3.md" \
-          --repo_path "/home/Automated_Codebase_Modification/GreaterWMS" \
-          --config_file "/home/Automated_Codebase_Modification/SWE-agent/config/wms_updated.yaml" \
-          --apply_patch_locally \
-          --per_instance_cost_limit 2.00
-    ```
+```bash
+   python run.py \
+     --model_name gpt4o \
+     --data_path "/home/Automated_Codebase_Modification/SWE-agent/instructions_v3.md" \
+     --repo_path "/home/Automated_Codebase_Modification/GreaterWMS" \
+     --config_file "/home/Automated_Codebase_Modification/SWE-agent/config/wms_updated.yaml" \
+     --apply_patch_locally \
+     --per_instance_cost_limit 2.00
+```
    
 ### Note: The configurations and prompts are only work for GreaterWMS. If you want to explore this method on other codebases, you need to optimize configurations and prompts yourself.   
 
